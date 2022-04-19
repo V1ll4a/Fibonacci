@@ -1,6 +1,6 @@
 do{
     n= Number(prompt("Ingrese el numero de Fibonacci que desee calcular"))
-    }while(isNaN(n) || n<8|| n>34|| n%1 !=0)
+    }while(isNaN(n) || n<0|| n>34|| n%1 !=0)
 function fb(n){
     if(n==1||n==0){
     return 1
